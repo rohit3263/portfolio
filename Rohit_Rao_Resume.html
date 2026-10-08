@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rohit Rao - Resume</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:#eeeeee;
+  color:#17203a;
+  font-family:Arial,Helvetica,sans-serif;
+}
+.resume{
+  width:794px;
+  min-height:1123px;
+  margin:30px auto;
+  padding:48px 55px;
+  background:#fff;
+  box-shadow:0 3px 15px rgba(0,0,0,.15);
+}
+.header{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:30px;
+  margin-bottom:42px;
+}
+.name{
+  grid-column:1/-1;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:43px;
+  line-height:.85;
+  letter-spacing:2px;
+  color:#111;
+  margin-bottom:28px;
+}
+.contact{
+  font-size:12px;
+  line-height:1.55;
+}
+.contact.right{text-align:left;padding-top:2px}
+.section{margin-bottom:35px}
+.title{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  margin-bottom:20px;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:28px;
+  font-weight:400;
+  color:#111;
+}
+.num{
+  width:28px;height:28px;
+  border:1px solid #111;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:Georgia,serif;
+  font-size:15px;
+}
+.summary{
+  font-size:12px;
+  line-height:1.65;
+  max-width:650px;
+}
+.skills{
+  display:grid;
+  grid-template-columns:200px 1fr;
+  gap:9px 10px;
+  font-size:11px;
+}
+.skill-name{text-transform:uppercase}
+.bars{letter-spacing:3px;color:#222}
+.job,.education{font-size:11px;line-height:1.6}
+.job-title,.degree{font-weight:bold;text-transform:uppercase;margin-bottom:5px}
+.company,.college{margin-bottom:4px}
+ul{margin:8px 0 0 18px;padding:0}
+li{margin-bottom:3px}
+@media(max-width:820px){
+  .resume{width:100%;margin:0;min-height:100vh;padding:35px 25px}
+}
+@media print{
+  body{background:#fff}
+  .resume{margin:0;box-shadow:none}
+}
+</style>
+</head>
+<body>
+
+<div class="resume">
+
+  <div class="header">
+    <div class="name">ROHIT<br>RAO</div>
+
+    <div class="contact">
+      Vasco, Goa, India
+    </div>
+
+    <div class="contact right">
+      999999999<br>
+      rohitkrao@gmail.com
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="title"><span class="num">1</span>SUMMARY</div>
+    <div class="summary">
+      Motivated BBA student with strong communication and teamwork skills.
+      Quick to learn, organized, and interested in developing practical business
+      and management skills.
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="title"><span class="num">2</span>SKILLS</div>
+    <div class="skills">
+      <div class="skill-name">Communication</div><div class="bars">○○○○○</div>
+      <div class="skill-name">Teamwork</div><div class="bars">○○○○○</div>
+      <div class="skill-name">Microsoft Excel</div><div class="bars">○○○○○</div>
+      <div class="skill-name">PowerPoint</div><div class="bars">○○○○○</div>
+      <div class="skill-name">Problem Solving</div><div class="bars">○○○○○</div>
+      <div class="skill-name">Time Management</div><div class="bars">○○○○○</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="title"><span class="num">3</span>WORK HISTORY</div>
+    <div class="job">
+      <div class="job-title">FRESHER</div>
+      <div>
+        Currently seeking an entry-level opportunity or internship to apply
+        academic knowledge, gain practical experience, and contribute to a
+        professional team.
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="title"><span class="num">4</span>EDUCATION</div>
+    <div class="education">
+      <div class="degree">BACHELOR OF BUSINESS ADMINISTRATION (BBA)</div>
+      <div class="college">Dempo College, Goa</div>
+      <div>Currently pursuing</div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
